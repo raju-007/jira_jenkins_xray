@@ -6,9 +6,9 @@
 
 import pdb
 import pytest
-import pytest_xray
+#import pytest_xray
 
-@pytest.mark.xray(test_key="DT-1", test_exec_key="DT-1")
+#@pytest.mark.xray(test_key="DT-1", test_exec_key="DT-1")
 def test_my_function():
     assert True == True
 
